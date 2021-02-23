@@ -1,0 +1,166 @@
+<html>
+<main>
+    <h1 id="title">Bio Data Form</h1>
+    <div id="form-outer">
+        <p id="description">
+            To know the details of students
+        </p>
+        <form id="survey-form" method="GET" action="">
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="name-label" for="name">Name: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="fname-label" for="fname">Father's Name: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="fname" id="fname" class="input-field" placeholder="Enter your father's name" required>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="focupation-label" for="focupation">Father's ocupation: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="focupation" id="focupation" class="input-field" placeholder="Enter your father's occupation" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="annincome-label" for="annincome">Annual income: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="annincome" id="annincome" class="input-field" placeholder="Enter your family annual income" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="mname-label" for="mname">Mother's Name: </label>
+                </div>
+                <div class="rightTab">
+                    <input autofocus type="text" name="mname" id="mname" class="input-field" placeholder="Enter your mother's name" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="email-label" for="email">Email: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="number-label" for="age">Age: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label id="dob-label" for="dob">D.O.B: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="date" name="dob" id="iddob" class="input-field" required>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="SSLC mark">SSLC mark: </label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="SSLC mark" placeholder="Enter your SSLC mark here..."></textarea>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="HSC mark">HSC mark: </label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="HSC mark" placeholder="Enter your HSC mark here..."></textarea>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="degree">Degree: </label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="degree" placeholder="Enter your degree here..."></textarea>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="department">Department: </label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="department" placeholder="Enter your department here..."></textarea>
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="gender">Gender: </label>
+                </div>
+                <div class="rightTab">
+                    <ul style="list-style: none;">
+                        <li class="radio"><label><input name="radio-buttons" value="male"  type="radio" class="userRatings" >Male</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="female"  type="radio" class="userRatings" >Female</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="others"  type="radio" class="userRatings" >Others</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="address">Address: </label>
+                </div>
+                <div class="rightTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="address" placeholder="Enter your address here..."></textarea>
+                </div>
+            </div>
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="pincode">Pincode: </label>
+                </div>
+                <div class="rightTab">
+                    <input type="number" name="pincode" id="idpincode" class="input-field" style="height:20px;resize:vertical;" placeholder="6 - - - - -"></div>
+            </div>
+
+            <div class="rowTab">
+                <div class="labels">
+                    <label for="language">Language Known: </label>
+                </div>
+                <div class="rightTab">
+                    <ul id="language" style="list-style: none;">
+                        <li class="checkbox"><label><input name="prefer" value="english" type="checkbox" class="userRatings">English</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="tamil" type="checkbox" class="userRatings">Tamil</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="hindi" type="checkbox" class="userRatings">Hindi</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="malayalam" type="checkbox" class="userRatings">Malayalam</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="kannada" type="checkbox" class="userRatings">Kannada</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="telugu" type="checkbox" class="userRatings">Telugu</label></li>
+                        <li class="checkbox"><label><input name="prefer" value="others" type="checkbox" class="userRatings">Others</label></li>
+                    </ul>
+                </div>
+            </div>
+
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+        </form>
+    </div>
+</main>
+
+</html>
